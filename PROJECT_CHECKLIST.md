@@ -1,0 +1,22 @@
+# Timeless Threads Final Project Checklist
+
+- [x] Landing / Home page
+- [x] Hero section with company name, logo, visual, tagline, and CTA
+- [x] About section
+- [x] Featured products
+- [x] Promotional section
+- [x] Promotional video integration
+- [x] Feature page
+- [x] Products page with images, name, description, category, price, availability, CTA
+- [x] Product search and category filters
+- [x] Contact page with name, email, subject, message, date, submit button
+- [x] Company address, phone, email, business hours, social media
+- [x] Social Media Marketing campaign page
+- [x] Email Marketing mockup
+- [x] Dataset 1: products.json
+- [x] Dataset 2: customers.json
+- [x] GET retrieval via Fetch API
+- [x] Data display page
+- [ ] GitHub repository — upload the completed folder
+- [ ] Hosted website link — deploy after GitHub/upload
+- [ ] Final PDF documentation — add screenshots, links, and member contributions

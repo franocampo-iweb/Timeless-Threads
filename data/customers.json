@@ -1,0 +1,7 @@
+[
+  {"id": 1001, "name": "Avery Cruz", "email": "avery.cruz@example.com", "city": "Mabalacat City", "segment": "Student", "status": "Subscriber"},
+  {"id": 1002, "name": "Jordan Reyes", "email": "jordan.reyes@example.com", "city": "Angeles City", "segment": "Young Professional", "status": "Subscriber"},
+  {"id": 1003, "name": "Sam Mendoza", "email": "sam.mendoza@example.com", "city": "San Fernando", "segment": "Student", "status": "Subscriber"},
+  {"id": 1004, "name": "Taylor Santos", "email": "taylor.santos@example.com", "city": "Mabalacat City", "segment": "Young Professional", "status": "Subscriber"},
+  {"id": 1005, "name": "Casey Lim", "email": "casey.lim@example.com", "city": "Angeles City", "segment": "Student", "status": "Subscriber"}
+]

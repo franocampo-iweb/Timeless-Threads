@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>API / Data Demo | Timeless Threads</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container nav">
+
+            <a class="brand" href="index.html">
+                <img
+                    class="brand-mark"
+                    src="assets/images/logo-dark.png"
+                    alt="Timeless Threads logo"
+                >
+                <span>Timeless Threads</span>
+            </a>
+
+            <button
+                class="nav-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+            >
+                ☰
+            </button>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Shop</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+            <div class="container">
+
+                <span class="eyebrow">
+                    Part IV — API / Data Integration
+                </span>
+
+                <h1>GET Data Demonstration.</h1>
+
+                <p>
+                    This academic demo supports two modes.
+                    When hosted online, it retrieves two JSON datasets
+                    using JavaScript Fetch API GET requests.
+                    When opened directly from a folder, it automatically
+                    uses matching embedded datasets so the project can
+                    still run without a local server.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- DATA INTEGRATION SECTION -->
+        <section class="section">
+            <div class="container">
+
+                <!-- PRIVACY NOTICE -->
+                <div class="data-note">
+
+                    <strong>Privacy Note:</strong>
+
+                    All customer records shown below are fictional examples
+                    created only to demonstrate the required dataset retrieval.
+                    They are not real customer data.
+
+                </div>
+
+
+                <!-- API STATUS -->
+                <div class="api-status">
+
+                    <span
+                        id="productsApiStatus"
+                        class="api-pill"
+                    >
+                        GET products.json — loading…
+                    </span>
+
+                    <span
+                        id="customersApiStatus"
+                        class="api-pill"
+                    >
+                        GET customers.json — loading…
+                    </span>
+
+                </div>
+
+
+                <!-- DATASET 1 -->
+                <section class="dataset-section">
+
+                    <span class="eyebrow">
+                        Dataset 1
+                    </span>
+
+                    <h2>Products</h2>
+
+                    <p class="section-copy">
+                        Product information is retrieved from the
+                        Timeless Threads product dataset and displayed
+                        dynamically using JavaScript.
+                    </p>
+
+                    <div
+                        id="productGrid"
+                        class="grid-3 data-product-grid"
+                    >
+                    </div>
+
+                </section>
+
+
+                <!-- DATASET 2 -->
+                <section class="dataset-section">
+
+                    <span class="eyebrow">
+                        Dataset 2
+                    </span>
+
+                    <h2>Customer Information</h2>
+
+                    <p class="section-copy">
+                        The customer dataset demonstrates retrieval and
+                        display of structured customer information.
+                        All records are fictional and created only
+                        for academic purposes.
+                    </p>
+
+
+                    <!-- CUSTOMER TABLE -->
+                    <div class="table-wrap data-table-wrap">
+
+                        <table>
+
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>City</th>
+                                    <th>Segment</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="customerRows">
+
+                                <tr>
+                                    <td colspan="6">
+                                        Loading customer data…
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-title">
+                Timeless Threads
+            </div>
+
+            <p>
+                API / Data Integration Demo • GET via fetch()
+                when hosted • Standalone fallback when opened directly
+            </p>
+
+        </div>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/customers.js"></script>
+
+</body>
+
+</html>
